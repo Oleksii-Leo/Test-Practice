@@ -4,7 +4,7 @@ const {
   getUserById,
   createPost,
   createComment,
-} = require("./controllers/jsonPlaceholderController.js");
+} = require("./controllers/jsonPlaceholderController");
 
 describe("JSONPlaceholder API tests", () => {
   test("GET /posts should return an array of posts", async () => {
